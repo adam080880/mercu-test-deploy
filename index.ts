@@ -6,7 +6,7 @@ config();
 const PORT = process.env.PORT;
 
 const app = Express();
-app.use('/', bootstrapRoute);
+app.use('/mercu-test-deploy', bootstrapRoute);
 
 app.listen(PORT, () => {
   console.log(`Server run on port ${PORT}`);
